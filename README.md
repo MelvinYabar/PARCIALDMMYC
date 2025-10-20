@@ -5,7 +5,7 @@ Pequeño juego por tiempo hecho en **Kotlin** con **Android Studio**, usando **F
 
 ---
 
-## 🎮 Características
+## Características
 
 * **Pantalla de Bienvenida (WelcomeFragment)**
 
@@ -27,7 +27,7 @@ Pequeño juego por tiempo hecho en **Kotlin** con **Android Studio**, usando **F
 * **Navegación entre fragments** con `NavHostFragment` y `nav_graph.xml`.
 * **Manejo básico de ciclo de vida y estado** (restaurar puntaje/tiempo si rota la pantalla, según implementación).
 
-### ✨ Extras posibles (marca los que implementaste)
+### Extras posibles (marca los que implementaste)
 
 * [ ] Sonidos (correcto/incorrecto/fin) con `SoundPool` o `MediaPlayer`.
 * [ ] Animaciones (`ViewPropertyAnimator`, `MotionLayout` o `Lottie`).
@@ -36,7 +36,7 @@ Pequeño juego por tiempo hecho en **Kotlin** con **Android Studio**, usando **F
 
 ---
 
-## 🧭 Arquitectura
+## Arquitectura
 
 * **Single-Activity / Multi-Fragment**: `MainActivity` con `NavHostFragment`.
 * **ViewModel + LiveData/StateFlow** para estado de juego (puntaje, tiempo, color actual).
